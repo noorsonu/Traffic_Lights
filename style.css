@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(/img/bg1.jpeg) no-repeat;
+    background-size: 100%;
+}
+.cross img{
+    position: absolute;
+}
+.img1{
+    position: relative;
+    top: 13.5rem;
+    left: 18.85rem;
+    height: 6.5rem;
+    width: 6.5rem;
+}
+.img2{
+    top: 21rem;
+    left: 74.9rem;
+    height: 14rem;
+    width: 14rem;
+}
+.img3{
+    position: relative;
+    top: 13.5rem;
+    left: 79.3rem;
+    height: 7.6rem;
+    width: 6rem;
+}
+.main1{
+    position:absolute;
+    top: 14rem;
+    left: 81rem;
+    background-color: #2e2e2e;
+    display: table;
+    flex-direction: column;
+    border-radius: 6px;
+}
+.light1{
+    margin: 0.3rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 1px solid rgb(141, 141, 141);
+}
+
+.main2{
+    position: absolute;
+    left: 34.1rem;
+    top: 5.8rem;
+    background-color: #2e2e2e;
+    display: inline-flex;
+    border-radius: 6px;
+}
+.light2{
+    margin: 0.2rem;
+    height: 1.5rem;
+    width: 1.6rem;
+    border-radius: 50%;
+    border: 1px solid rgb(141, 141, 141);
+}
+.count{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 4rem;
+    width: 5rem;
+    background-color: #000;
+    border-radius: 0px;
+    left: 41.4rem;
+    color: red;
+    align-items: center;
+    top: 5.3rem;
+    font-size: 2.5rem;
+    border-radius: 5px;
+    border: 5px solid #3f3f3f;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 2.6rem;
+    width: 5rem;
+    background-color: #000;
+    color: rgb(255, 0, 0);
+    left: 34.6rem;
+    align-items: center;
+    top: 8.1rem;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    z-index: 10;
+    border: 5px solid #3f3f3f;
+}
+.left-hang{
+    position: absolute;
+    left: 35rem;
+    top: 7.7rem;
+    width: 0.3rem;
+    height: 1.5rem;
+    background-color: #4e4e4e;
+}
+.right-hang{
+    position: absolute;
+    left: 38.89rem;
+    top: 7.7rem;
+    width: 0.3rem;
+    height: 1.5rem;
+    background-color: #4e4e4e;
+}
+
+
+
